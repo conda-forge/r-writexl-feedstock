@@ -1,13 +1,15 @@
 About r-writexl
 ===============
 
+[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
+
 Home: https://github.com/ropensci/writexl (devel), https://libxlsxwriter.github.io (upstream)
 
 Package license: BSD_2_clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: Zero-dependency and data frame to xlsx exporter based on 'libxlsxwriter'. Fast and no Java or Excel required.
+Summary: Zero-dependency data frame to xlsx exporter based on 'libxlsxwriter'.  Fast and no Java or Excel required.
 
 
 
@@ -104,3 +106,9 @@ In order to produce a uniquely identifiable distribution:
  * If the version of a package **is** being increased, please remember to return
    the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
    back to 0.
+
+Feedstock Maintainers
+=====================
+
+* [@conda-forge/r](https://github.com/conda-forge/r/)
+
