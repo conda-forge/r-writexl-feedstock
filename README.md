@@ -3,7 +3,7 @@ About r-writexl
 
 Home: https://github.com/ropensci/writexl (devel), https://libxlsxwriter.github.io (upstream)
 
-Package license: BSD_2_clause
+Package license: BSD-2-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-writexl-feedstock/blob/main/LICENSE.txt)
 
