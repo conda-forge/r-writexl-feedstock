@@ -7,20 +7,24 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-writexl-feeds
 About r-writexl
 ---------------
 
-Home: https://github.com/ropensci/writexl (devel), https://libxlsxwriter.github.io (upstream)
+Home: https://libxlsxwriter.github.io
 
 Package license: BSD-2-Clause
 
-Summary: Zero-dependency data frame to xlsx exporter based on 'libxlsxwriter'.  Fast and no Java or Excel required.
+Summary: Zero-dependency data frame to xlsx exporter based on 'libxlsxwriter'. Fast and no Java or Excel required.
+
+Development: https://github.com/ropensci/writexl
 
 About r-writexl
 ---------------
 
-Home: https://github.com/ropensci/writexl (devel), https://libxlsxwriter.github.io (upstream)
+Home: https://libxlsxwriter.github.io
 
 Package license: BSD-2-Clause
 
-Summary: Zero-dependency data frame to xlsx exporter based on 'libxlsxwriter'.  Fast and no Java or Excel required.
+Summary: Zero-dependency data frame to xlsx exporter based on 'libxlsxwriter'. Fast and no Java or Excel required.
+
+Development: https://github.com/ropensci/writexl
 
 Current build status
 ====================
