@@ -7,20 +7,28 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-writexl-feeds
 About r-writexl
 ---------------
 
-Home: https://github.com/ropensci/writexl (devel), https://libxlsxwriter.github.io (upstream)
+Home: https://libxlsxwriter.github.io
 
 Package license: BSD-2-Clause
 
 Summary: Zero-dependency data frame to xlsx exporter based on 'libxlsxwriter'.  Fast and no Java or Excel required.
+
+Development: https://github.com/ropensci/writexl
+
+Documentation: https://docs.ropensci.org/writexl/
 
 About r-writexl
 ---------------
 
-Home: https://github.com/ropensci/writexl (devel), https://libxlsxwriter.github.io (upstream)
+Home: https://libxlsxwriter.github.io
 
 Package license: BSD-2-Clause
 
 Summary: Zero-dependency data frame to xlsx exporter based on 'libxlsxwriter'.  Fast and no Java or Excel required.
+
+Development: https://github.com/ropensci/writexl
+
+Documentation: https://docs.ropensci.org/writexl/
 
 Current build status
 ====================
@@ -100,6 +108,20 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4289&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-writexl-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.3" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_r_base4.2</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4289&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-writexl-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_r_base4.2" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_r_base4.3</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4289&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-writexl-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_r_base4.3" alt="variant">
                 </a>
               </td>
             </tr><tr>
