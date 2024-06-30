@@ -1,6 +1,5 @@
 {% set version = "1.5.0" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-writexl
@@ -13,8 +12,7 @@ source:
   sha256: e253dc58f00abf51e9b727ae132e8b301e359fb23df0afc40c3ebec3fb096dce
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   rpaths:
     - lib/R/lib/
     - lib/
@@ -23,7 +21,9 @@ requirements:
   build:
     - cross-r-base {{ r_base }}  # [build_platform != target_platform]
     - {{ compiler('c') }}        # [not win]
+    - {{ stdlib("c") }}          # [not win]
     - {{ compiler('m2w64_c') }}  # [win]
+    - {{ stdlib("m2w64_c") }}    # [win]
     - {{ posix }}filesystem      # [win]
     - {{ posix }}make
     - {{ posix }}sed             # [win]
@@ -33,7 +33,6 @@ requirements:
     - r-base
   run:
     - r-base
-    - {{ native }}gcc-libs       # [win]
 
 test:
   commands:
