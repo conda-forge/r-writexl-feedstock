@@ -1,4 +1,4 @@
-{% set version = "1.5.1" %}
+{% set version = "1.5.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/writexl_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/writexl/writexl_{{ version }}.tar.gz
-  sha256: 5d113723580dd421450ca36abb4a2fe8d724c8e2c8b1de963c05ae23124d9b93
+  sha256: 97d4c8e81a29f780df142b3737269887e5c557f00bd4b776ec2994aacef93e90
 
 build:
   number: 0
